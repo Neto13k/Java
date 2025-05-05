@@ -4,10 +4,10 @@ function exibir(t, c) {
 
 exibir("1. Tarefa Cidades", "");
 
-const cidadesBR = ["Maceió", "Rio de Janeiro", "Salvador"];
+const cidadesBR = ["Maceió", "Rio de Janeiro", "Salvador", "Brasília", "Aracaju", "Recife", "Campina Grande", "Caruaru",];
 exibir("Cidades Brasileiras: ", cidadesBR.join(", "));
 
-const cidadesINT = ["Liverpool", "Tóquio", "Buenos Aires"];
+const cidadesINT = ["Liverpool", "Orlando", "Buenos Aires", "Tóquio", "Berlim", "Londres", "Paris", "Marselha"];
 exibir("Cidades Estrangeiras: ", cidadesINT.join(", "));
 
 const todasCidades = cidadesBR.concat(cidadesINT);
@@ -35,7 +35,7 @@ exibir("Resultado:", temMaiorQue50 ? "Sim, Há pelo menos um número maior que 5
 
 exibir("4. Tarefa Soma com For", "");
 
-let numeros2 = [0, 50, 100];
+let numeros2 = [0, 50, 100, 150, 200, 250, 300];
 exibir("Números: ", numeros2.join(", "));
 let somaFor = 0;
 for (let i = 0; i < numeros2.length; i++) {
@@ -45,7 +45,7 @@ exibir("Resultado: ", `Soma = ${somaFor}`);
 
 exibir("5. Soma com While", "");
 
-let numeros3 = [150, 200, 250];
+let numeros3 = [500, 550, 600, 650, 700, 750, 800];
 exibir("Números: ", numeros3.join(", "));
 let somaWhile = 0;
 let i = 0;
