@@ -54,3 +54,8 @@ while (i < numeros3.length) {
   i++;
 }
 exibir("Resultado: ", `Soma = ${somaWhile}`);
+
+let Frutas = [Banana, maça, mamão, melão, melancia, limão, laranja]
+Frutas.splice =(6,7, "Manga", "abacaxi")
+exibir ("Frutas", Frutas.join(","))
+exibir ("Alterações realizadas", "Foram retirados limão e laranja<br>Adicionados: Manga e abacaxi<br>Lista final: "+Frutas.joint(", "))
