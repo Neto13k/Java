@@ -1,6 +1,7 @@
 async function carregarMusica() {
 
   const minhaPromise = new Promise(resolve => {
+    console.log ("Carregando...")
     setTimeout(() => {
       resolve("Música compartilhada com sucesso!");
     }, 1500);
@@ -11,4 +12,4 @@ async function carregarMusica() {
   document.getElementById("resultado").innerText = resultado;
 }
 
-///// Mesma base da tarefa de rastreamento///
+///// Realizado alteração para configuração em console///
